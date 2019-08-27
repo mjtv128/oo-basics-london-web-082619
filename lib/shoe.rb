@@ -5,6 +5,10 @@ class Shoe
     @brand = brand 
   end 
  
+ def cobble 
+   puts "The shoe has been repair"
+ shoe = Shoe.new("Nike")
+ shoe.cobble
   
 end 
 
